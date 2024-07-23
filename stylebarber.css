@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 #banner{
-    background: linear-gradient(to bottom, rgba(0, 63, 145, 0.733), rgba(233, 241, 255, 0.864)); /*, url(images/banner.jpg);*/
+    background: linear-gradient(to bottom, rgba(0, 50, 117, 0.793), rgba(233, 241, 255, 0.864)); /*, url(images/banner.jpg);*/
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -368,13 +368,14 @@ hr{
 }
 .footer-row h1{
     margin: 10px 0;
+    padding-top: 10px;
 }
 .footer-row p{
     line-height: 35px;
 }
 .footer-left .fa, .footer-right .fa{
     font-size: 20px;
-    color: #009688;
+    color: #2673e7;
     margin: 10px;
 }
 .footer-img{
@@ -382,7 +383,7 @@ hr{
     opacity: 0.1;
     position: absolute;
     left: 50%;
-    top: 45%;
+    top: 58%;
     transform: translate(-50%,-50%);
 }
 .social-links{

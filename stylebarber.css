@@ -344,6 +344,121 @@ hr{
         flex-basis: 100%;
     }
 }
+/*---course----*/
+.course{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size:36px ;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px ;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px ;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding: 20px 12px;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}/*literally just a hover of a shadow*/
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+/*-------campus----*/
+.campus{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    justify-content: center;
+}
+.campus-col{
+    flex-basis: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+.campus-col img {
+    width: 110%;           /* Making the image larger than its container */
+    max-width: 100%;       /* Ensures image does not exceed its increased size */
+    max-height: 500px;          /* Maintains aspect ratio */
+    display: block;        /* Ensures the image is treated as a block element */
+    margin: auto;          /* Centers the image within its container */
+    transition: transform 0.3s ease; /* Smooth transition for hover effects */
+}
+.layer{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(18, 93, 147, 0.7);
+}
+
+.layer h2{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+}
+.layer:hover h2{
+    bottom: 55%;
+    opacity: 1;
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+}
+.layer:hover h3{
+    bottom: 35%;
+    opacity: 1;
+}
+
 
 /*-----footer-----*/
 #footer{

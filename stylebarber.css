@@ -254,6 +254,7 @@ nav ul li a{
     opacity: 0;
     transform: translateX(-50%);
     transition: 1s;
+    
 }
 hr{
     background: #fff;
@@ -264,6 +265,7 @@ hr{
 }
 .service-desc p{
     font-size: 14px;
+    color: #fff;
 }
 .single-service:hover .service-desc{
     bottom: 40%;
